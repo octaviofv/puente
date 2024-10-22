@@ -28,7 +28,7 @@ function App() {
       <Toolbar />
       <div className="flex-1 flex flex-col">
         <div className="bg-gray-800 text-white p-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">ReactFlow Custom Project</h1>
+          <h1 className="text-2xl font-bold">Puente OS</h1>
           <div className="space-x-4">
             <button
               onClick={executeFlow}
