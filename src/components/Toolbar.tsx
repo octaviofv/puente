@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFlowStore } from '../store/flowStore';
-import { FileText, Globe, FormInput, StickyNote, Database, ShoppingCart, Briefcase } from 'lucide-react';
+import { FileText, Globe, FormInput, StickyNote, Database, ShoppingCart, Briefcase, Webhook } from 'lucide-react';
 
 const Toolbar = () => {
   const { addNode, addTemplate } = useFlowStore();
@@ -11,6 +11,7 @@ const Toolbar = () => {
     { name: 'Form Node', icon: FormInput, action: () => addNode('formNode') },
     { name: 'Comment', icon: StickyNote, action: () => addNode('commentNode') },
     { name: 'Database', icon: Database, action: () => addNode('databaseNode') },
+    { name: 'Webhook', icon: Webhook, action: () => addNode('webhookNode') },
     { name: 'E-commerce Template', icon: ShoppingCart, action: () => addTemplate('ecommerce') },
     { name: 'Digital Agency Template', icon: Briefcase, action: () => addTemplate('digitalAgency') },
   ];

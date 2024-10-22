@@ -8,6 +8,7 @@ import HttpNode from './components/nodes/HttpNode';
 import FormNode from './components/nodes/FormNode';
 import CommentNode from './components/nodes/CommentNode';
 import DatabaseNode from './components/nodes/DatabaseNode';
+import WebhookNode from './components/nodes/WebhookNode';
 import { PlusCircle, Trash2, Play, XCircle } from 'lucide-react';
 
 const nodeTypes = {
@@ -16,6 +17,7 @@ const nodeTypes = {
   formNode: FormNode,
   commentNode: CommentNode,
   databaseNode: DatabaseNode,
+  webhookNode: WebhookNode,
 };
 
 function App() {
