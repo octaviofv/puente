@@ -23,7 +23,7 @@ const CommentNode: React.FC<NodeProps> = ({ id, data }) => {
   return (
     <div className="bg-yellow-100 border-2 border-yellow-300 rounded-md p-4 shadow-md w-48">
       <Handle type="target" position={Position.Top} />
-      <h3 className="font-bold mb-2">Comment</h3>
+      <h3 className="font-bold mb-2">Comentario</h3>
       {isEditing ? (
         <textarea
           value={comment}

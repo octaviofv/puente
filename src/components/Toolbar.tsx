@@ -12,8 +12,8 @@ const Toolbar = () => {
     { name: 'Comment', icon: StickyNote, action: () => addNode('commentNode') },
     { name: 'Database', icon: Database, action: () => addNode('databaseNode') },
     { name: 'Webhook', icon: Webhook, action: () => addNode('webhookNode') },
-    { name: 'E-commerce Template', icon: ShoppingCart, action: () => addTemplate('ecommerce') },
-    { name: 'Digital Agency Template', icon: Briefcase, action: () => addTemplate('digitalAgency') },
+    { name: 'E-commerce OS', icon: ShoppingCart, action: () => addTemplate('ecommerce') },
+    { name: 'Digital Agency OS', icon: Briefcase, action: () => addTemplate('digitalAgency') },
   ];
 
   return (

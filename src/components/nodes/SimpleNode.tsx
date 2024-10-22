@@ -4,7 +4,7 @@ import { XCircle } from 'lucide-react';
 import { useFlowStore } from '../../store/flowStore';
 
 const SimpleNode: React.FC<NodeProps> = ({ id, data }) => {
-  const [text, setText] = useState(data.label || 'Simple Node');
+  const [text, setText] = useState(data.text || 'Simple Node');
   const [isEditing, setIsEditing] = useState(false);
   const removeNode = useFlowStore((state) => state.removeNode);
 
